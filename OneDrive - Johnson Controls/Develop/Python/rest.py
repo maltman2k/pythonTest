@@ -22,5 +22,5 @@ while i < 5:
   y = json.loads(response.text)
   print (y[u'item'][u'value'])
   time.sleep(2)
-
+print ("end process execution")
 
