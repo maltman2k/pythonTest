@@ -11,9 +11,7 @@ proxies = {
   'https': '165.225.86.36:10319',
 }
 headers = {'accept' : 'application/json'}
-#url = 'https://sisedemos.ddns.net:9090/services/ede/virtualdevices/1'
-#response = requests.get('http://jsonplaceholder.typicode.com/todos/1', proxies=proxies,verify=False)
-#response = requests.get('https://sisedemos.ddns.net:9090/services/ede/virtualdevices/1/items/Room Temperature/value', proxies=proxies,verify=False,headers=headers)
+
 
 i = 1
 proxyEnabled=0;
